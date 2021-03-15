@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <title>Churras</title>
+</head>
+
+<body>
+
+    <header id="cabec">
+        <h1>Churrascômetro</h1>
+    </header>
+
+    <nav class="container">
+
+        <input id="homens" name="homens" type="number" placeholder="   N° de Homens">
+        <input id="mulheres" name="mulheres" type="number" placeholder="   N° de Mulheres">
+        <input id="criancas" name="criancas" type="number" placeholder="   N° de Crianças">
+        <input id="duracao" name="duracao" type="number" placeholder="   Duração (h)">
+
+        <img id="carne" onclick="selectC()" src="./CSS/tulo.png" height="60px">
+        <img id="frango" onclick="selectF()" src="./CSS/chic.png" height="60px">
+        <img id="cerveja" onclick="selectB()" src="./CSS/beer.png" height="60px">
+        <img id="refri" onclick="selectR()" src="./CSS/coke.png" height="50px">
+
+
+
+        <button id="btn1" onclick="calcular()">Calcular</button>
+
+        <div id="resultado">
+
+        </div>
+
+
+    </nav>
+    <script src="./JS/script.js">
+
+    </script>
+</body>
+
+</html>
